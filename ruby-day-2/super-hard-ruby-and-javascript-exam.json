@@ -1,0 +1,53 @@
+{
+  "name": "Super Hard Ruby and JavaScript Exam",
+  "problems": [
+    {
+      "problem type": "coding",
+      "name": "Method Chains",
+      "statement": "One may also chain method invocations by simply adding more periods and method names sequentially - each method in the chain is called on the result of the previous method. Go on and try it by invoking next twice on 1 to get 3.",
+      "explanation": "The results you're looking at are the consequence of running a series of tests against your input to validate it. If you see results coloured red, this means one or more tests failed. Green means you're good to go.",
+      "language": "Ruby",
+      "start": "1",
+      "solution": "1.next.next",
+      "output": "3",
+      "description": "next called on 1 twice returns three"
+    },
+    {
+      "problem type": "coding",
+      "name": "Round Up!",
+      "statement": "Use a JavaScript Math method to round up the number to next integer",
+      "explanation": "Use Math.ceil()!!",
+      "language": "JavaScript",
+      "start": "1.4",
+      "solution": "Math.ceil(1.4)",
+      "output": "2",
+      "description": "Math.ceil() method rounds number"
+    },
+    {
+      "problem type": "multiple choice",
+      "name": "Capitalize and Reverse",
+      "statement": "How do you reverse and capitalize a string?",
+      "explanation": "Ruby can do multiple methods called on top of one another.",
+      "choice": {"text": "string.upcase.reverse", "correct": "true"},
+      "choice": {"text": "upcase(string).reverse", "correct": "false"},
+      "choice": {"text": "call upcase(string, output)", "correct": "false"},
+      "choice": {"text": "reverse(upcase(string))", "correct": "false"}
+    },
+    {
+      "problem type": "checkbox",
+      "name": "First Array Element",
+      "statement": "How do you get the first element of array? Check all of the code that is true.",
+      "explanation": "Ruby has many ways to do the same thing.",
+      "choice": {"text": "array.first", "correct": "true"},
+      "choice": {"text": "array.last", "correct": "false"},
+      "choice": {"text": "array[0]", "correct": "true"},
+      "choice": {"text": "array[1]", "correct": "false"}
+    },
+    {
+      "problem type": "text prompt",
+      "name": "Favorite Part of Ruby",
+      "statement": "What is your favorite part of ruby?",
+      "explanation": "You can say whatever you want as long it is about Ruby programming language."
+    }
+  ]
+}
