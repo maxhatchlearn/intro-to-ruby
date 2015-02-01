@@ -1,10 +1,13 @@
-# Ruby Day 1
+Intro to Ruby
+=====================================
+
+### Ruby Day 1
 
 [Ruby Arrays](./ruby-day-1/ruby-arrays.md)
 
 [Ruby Strings](./ruby-day-1/ruby-strings.md)
 
-# Ruby Day 1
+### Ruby Day 1
 
 [Learn Web Design, Coding & More at Treehouse](./ruby-day-2/learn-web-design-coding-and-more-at-treehouse.md)
 
